@@ -4,3 +4,66 @@
     font-weight: 700;
     color: darkblue;
 }
+
+#section-container {
+    width: 840px;
+    background-color: rgb(210, 30, 180);
+    border: 2px solid skyblue;
+    color: white;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+}
+
+#input-div {
+    width: 50%;
+    padding: 20px;
+}
+
+#output-div {
+    width: 50%;
+    /* background-color: darkgray; */
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.input-div-element {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.label-class {
+    font-size: 30px;
+}
+
+.input-class {
+    width: 70%;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    color: orangered
+}
+
+#tip-calculation {
+    margin-bottom: 60px;
+}
+
+.calculation-heading {
+    font-size: 24px;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.calculation-money {
+    font-size: 48px;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.per-person {
+    font-size: 16px;
+    margin: 0 0;
+    padding: 0 0;
+}
