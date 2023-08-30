@@ -8,10 +8,10 @@
 #section-container {
     width: 840px;
     background-color: rgb(210, 30, 180);
-    border: 2px solid skyblue;
+    border: 5px solid skyblue;
     color: white;
     margin: 50px auto;
-    padding: 30px;
+    padding: 50px;
     display: flex;
 }
 
@@ -39,11 +39,16 @@
 }
 
 .input-class {
-    width: 70%;
+    width: 80%;
     font-size: 30px;
     padding: 10px 20px;
     border: none;
     color: orangered
+}
+
+::placeholder {
+    color: gray;
+    opacity: 0.6;
 }
 
 #tip-calculation {
