@@ -7,7 +7,7 @@
 
 #section-container {
     width: 840px;
-    background-color: rgb(210, 30, 180);
+    background-color: #d21eb4;
     border: 5px solid skyblue;
     color: white;
     margin: 50px auto;
@@ -49,6 +49,16 @@
 ::placeholder {
     color: gray;
     opacity: 0.6;
+}
+
+#calculate-btn {
+    background-color: #ffcf00;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #01b700;
+    border: none;
+    border-radius: 10px;
 }
 
 #tip-calculation {
